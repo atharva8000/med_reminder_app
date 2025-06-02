@@ -98,7 +98,7 @@ class _PrescriptionScannerState extends State<PrescriptionScanner> {
   }
 
   Future<void> _sendToBackendForPrediction(File imageFile, String mimeType) async {
-    const flaskApiUrl = 'http://192.168.40.20:5000/predict'; // Replace with your Flask backend URL
+    const flaskApiUrl = 'http://192.xxx.xx.xx:5000/predict'; // Replace with your Flask backend URL
     print('Flask API URL: $flaskApiUrl');
     try {
       final bytes = await imageFile.readAsBytes();
