@@ -9,7 +9,7 @@ import requests
 app = Flask(__name__)
 
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key="
-API_KEY = "AIzaSyCSsJdDg4JAjpq22ECnAnM87jqBfAqsWuQ"
+API_KEY = "Generative AI key"
 
 RESPONSE_SCHEMA = {
     "type": "OBJECT",
